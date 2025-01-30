@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+float velocity(int distance, int time)
+{
+ return (float) distance/ time;
+}
+
+int main()
+{
+int dis, t ;
+scanf("%d %d", &dis, &t);
+
+double res = velocity(dis, t);
+printf("%f", res);
+}
